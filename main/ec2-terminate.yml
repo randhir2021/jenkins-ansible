@@ -1,9 +1,0 @@
----
-- hosts: server
-  gather_facts: false
-  tasks:
-    - name: Terminate EC2 instance
-      ec2:
-         instance_ids: i-0a405da62c8bf810a
-         region: ap-south-1
-         state: absent
