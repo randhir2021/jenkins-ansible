@@ -45,9 +45,6 @@
          vpc_subnet_id: subnet-0d9d077a832d25559
          assign_public_ip: yes
          group: Ansible_Security_Group_AWS
-         metadata_options:
-           http_endpoint: enabled
-           http_tokens: optional
       register: ec2
 
     - name: Wait for SSH to come up
