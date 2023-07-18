@@ -7,7 +7,7 @@
         name: 
           - httpd
           - wget
-          - mysql
+          # - mysql-server
         state: "present"
     - name: Start Apache server
       service:
