@@ -4,7 +4,10 @@
   tasks:
     - name: Install packages
       dnf:
-        name: "httpd"
+        name: 
+          - httpd
+          - wget
+          - mysql
         state: "present"
     - name: Start Apache server
       service:
