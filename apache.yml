@@ -6,7 +6,7 @@
       dnf:
         name: 
           - httpd
-          - wget
+          # - wget
           # - mysql-server
         state: "present"
     - name: Start Apache server
