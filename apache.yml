@@ -3,7 +3,7 @@
   become: True
   tasks:
     - name: Install packages
-      dnf:
+      yum:
         name: 
           - httpd
           - wget
